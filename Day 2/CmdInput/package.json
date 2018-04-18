@@ -1,0 +1,11 @@
+{
+  "name": "cmdinput",
+  "version": "1.0.0",
+  "description": "this is simple example for getting user inputs from command prompt",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Udhay",
+  "license": "ISC"
+}

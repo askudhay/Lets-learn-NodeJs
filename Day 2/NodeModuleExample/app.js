@@ -6,7 +6,7 @@ console.log('Result: ', osObj.userInfo().username);
 fsObj.writeFile('helloworld.txt',"Hello World !!!", function(err){
     console.log(err);
     if(err){
-        console.log("Something went wrong");
+        console.log("Some error occured");
         throw err;
     }
     console.log("File got created successfully !");
@@ -18,7 +18,7 @@ fsObj.writeFile('helloworld.txt',"Hello World !!!", function(err){
         console.log('Appended successfully !');
         fsObj.rename('helloworld.txt','day2.txt',(err) => {
             console.log("File has been renamed successfully");
-            fsObj.readFile('day2.txt', (err,data) => {
+            fsObj.readFile('day2.txt','utf8', (err,data) => {
                 if(err){
                     console.log("Error in reading file");
                     throw err;
