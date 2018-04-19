@@ -1,0 +1,11 @@
+{
+  "name": "urlexample",
+  "version": "1.0.0",
+  "description": "This is simple example to showcase URL Module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Udhay",
+  "license": "ISC"
+}
