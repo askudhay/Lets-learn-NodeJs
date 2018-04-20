@@ -1,5 +1,5 @@
 const fs = require('fs');
-
+const _= require('lodash');
 var fetchNotes = () => {
     try {
         var noteStr = fs.readFileSync('notes-data.json');
@@ -39,7 +39,6 @@ var getAll = () => {
 var getNote = (title) => {
     var notes = fetchNotes();
     var filteredNote = notes.filter((note) => note.title === title);
-    debugger;
     return filteredNote[0];
 }
 
