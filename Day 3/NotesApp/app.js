@@ -28,7 +28,9 @@ if (command === 'add') {
 
 } else if (command === 'read') {
     var note = notes.getNote(argv.title);
+    debugger;
     if (note) {
+        debugger;
         console.log('Note found', note);
     } else {
         console.log('Note not found');
