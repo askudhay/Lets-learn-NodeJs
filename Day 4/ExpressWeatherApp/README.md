@@ -1,9 +1,12 @@
+# Application flow
+
+![alt text](https://github.com/smartudhaya/nodejssamples/blob/master/Day%204/ExpressWeatherApp/NodeJS_Weather_App_Flow.PNG)
+
 # Prerequistes
 
 Node JS ^8
 
 NPM ^5
-
 
 ## Install dependencies before you begin:
 
